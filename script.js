@@ -4,6 +4,7 @@ let password = "MaVeRicK15$";
 let phone = 9151356121;
 let is_loggedInFrom_google = false;
 let loggedInStatus = true;
+let logCount = 16;
 
 console.log(`
     username is : ${name},
@@ -11,5 +12,7 @@ console.log(`
     password is : ${password},
     Phone No is : ${phone},
     loggedInFromGoogle : ${is_loggedInFrom_google},
-    loggin succes : ${loggedInStatus}
+    loggin succes : ${loggedInStatus},
+    logged count : ${logCount}
+
     `);
