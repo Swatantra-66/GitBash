@@ -1,0 +1,51 @@
+body{
+    background: rgb(66,66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+    text-align: center;
+    
+}
+
+.counter, .followers{
+    height: 100;
+    width: 100;
+    background-color: aquamarine;
+    color: rgb(228, 112, 34);
+}
+
+
+.description{
+    transition: 0.9s ease-in-out;
+}
+
+.red{
+    background: red;
+    height: 100;
+    width: 100;
+}
+.cyan{
+    background: cyan;
+}
+
+.orange{
+    background: orange;
+}
+
+.violet{
+    background: violet;
+}
+
+.pink{
+    background: pink;
+}
