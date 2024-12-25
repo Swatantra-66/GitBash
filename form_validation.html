@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        #userForm{
+            
+            object-position: center;
+            background-color: aqua;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 150px;
+            width: 400px;
+        }
+       input:focus{
+            color: rgb(4, 114, 240);
+            background: rgb(233, 92, 92);  
+            
+        }
+        
+
+    
+    </style>
+</head>
+<body>
+    <form id="userForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="errorMessages" style="color: red;"></p>
+
+    <script src="validate.js"></script>
+</body>
+</html>
